@@ -2,6 +2,6 @@
 
 git add .
 git commit -m "momo's life and codes all in this website."
-git push
+git push origin master
 echo success.
 pause
