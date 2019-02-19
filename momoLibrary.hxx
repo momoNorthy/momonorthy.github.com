@@ -40,7 +40,7 @@ namespace m3Library
 		setInt;
 	using setDouble = std::uniform_real_distribution<double>;
 	using _rtd_ = setDouble;
-	inline void get() { _getch(); }
+	inline int get() { return _getch(); }
 	inline void setTitle(const std::string &a)
 	{
 		SetConsoleTitleA(a.c_str());
