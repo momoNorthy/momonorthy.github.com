@@ -68,6 +68,15 @@ namespace m3Library
 		sprintf_s(command, "mode con cols=%d lines=%d", width, height);
 		std::system(command);
 	}
+	void flush(std::istream& i=std::cin)
+	{
+		char buf;
+		i.clear();
+		while (i.get(buf) )
+		{
+			continue;
+		}
+	}
 
 
 }
