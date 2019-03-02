@@ -1,8 +1,10 @@
 ﻿#include<iostream>
 #include<windows.h>
+#pragma comment(lib, "winmm.lib")
 int wmain()
 {
 	SetConsoleTitleA("检测一下");
+PlaySound("./Intro： The Dawn - Dreamtale.mp3",0, SND_LOOP|SND_ASYNC);
 	std::cout<<"长征时间是由（）开始"<<"\b\b\b\b"<<std::endl;
 	int a;
 	std::cin>>a;std::cin.get();
