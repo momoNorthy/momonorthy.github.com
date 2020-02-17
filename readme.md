@@ -1,3 +1,3 @@
-# this is momo's website.
-## web address https://github.com/momoNorthy/momo.life.enjoy.io
-# this is a personal website but you can fork.
+请点击如下页面去到相应的网站。
+
+<https://iamcloud.gitee.io>
